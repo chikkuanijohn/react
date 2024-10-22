@@ -9,7 +9,7 @@ function Footer(){
      
            
             <div className="social-media">
-                <a href="#"><i className="fab fa-facebook"><img src=""/></i></a>
+                <a href="#"><i class="bi bi-0-circle"></i></a>
                 <a href="#"><i className="fab fa-twitter"><img src=""/></i></a>
                 <a href="#"><i className="fab fa-linkedin"><img src=""/></i></a>
                 <a href="#"><i className="fab fa-instagram"><img src=""/></i></a>
