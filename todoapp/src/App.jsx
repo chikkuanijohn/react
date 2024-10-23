@@ -37,13 +37,13 @@
 
 import React,{ component } from "react";
 import TaskList from "./component/TaskList.jsx"
-// import AddTask from './component/AddTask'
+import AddTask from './component/AddTask'
 
 function App() {
   return(
     <div className="App">
       <h1>Todo App</h1>
-      {/* <AddTask /> */}
+      <AddTask />
       <TaskList/>
 
     </div>

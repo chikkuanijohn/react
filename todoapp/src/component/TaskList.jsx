@@ -19,7 +19,7 @@ const TaskList=()=>{
     };
     const updateTask=(id,updatedTask)=>{
         setEditing(false);
-        axios.put('https://aswanth74.pythonanywhere.com/api/tasks/${id}',updatedTask)
+        axios.put('https://aswanth74.pythonanywhere.com/api/tasks/${id}/',updatedTask)
             .then(response=>{
             setTasks(tasks.map(task=>(task.id === id? response.data:task)));
         })
